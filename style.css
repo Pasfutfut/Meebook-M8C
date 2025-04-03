@@ -1,12 +1,10 @@
-/* Style général */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
-    padding: 0;
-    text-align: center;
-    backgroundcolor: red;
+    text-align: left;
+    padding: 20px; /* Ajoute une marge à gauche */
 }
 
 /* En-tête */
@@ -21,8 +19,11 @@ header {
 /* Conteneur principal */
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 40px auto; /* Centre la page */
     padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Cartes de contenu */
@@ -60,4 +61,8 @@ footer {
     background-color: #222;
     color: white;
     font-size: 14px;
+}
+
+h1, h3 {
+    margin-top: 10px; /* Réduit l'espace au-dessus */
 }
