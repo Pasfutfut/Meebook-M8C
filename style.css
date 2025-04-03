@@ -66,3 +66,9 @@ footer {
 h1, h3 {
     margin-top: 10px; /* Réduit l'espace au-dessus */
 }
+
+img {
+    width: 50%; /* Taille relative */
+    height: auto; /* Garder proportions */
+    border-radius: 15px; /* Coins arrondis */
+}
